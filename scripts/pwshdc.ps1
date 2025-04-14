@@ -589,7 +589,7 @@ while ($true) {
 
                                 try {
                                     $scriptPath = $MyInvocation.MyCommand.Definition
-                                    $arguments = "-NoProfile -ExecutionPolicy Bypass -File `"$scriptPath`" -tk `"$tk`" -cid `"$cid`""
+                                    $arguments = "-NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File `"$scriptPath`" -tk `"$tk`" -cid `"$cid`""
 
 
                                     Start-Process powershell -ArgumentList $arguments -Verb RunAs -ErrorAction Stop
