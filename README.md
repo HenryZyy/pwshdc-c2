@@ -1,7 +1,7 @@
 # pwshdc-c2
 A PowerShell Discord bot for remote command execution, in development
 
-**Disclaimer**: This project should be used for authorized testing or educational purposes only.
+**Disclaimer**: This project should be used for authorized testing and educational purposes only.
 
 ## Features
 - **Multiple Connections at the same time**
